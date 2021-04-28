@@ -1,15 +1,17 @@
 header{
     width: 100%;
-    height:400px;
+    height:300px;
     justify-content:center;
     align-items: center;
     background-image: url(./img/bg-navbar.jpg);
     background-size: cover;
 }
 
+/* navbar */
 .navbar{
     display: flex;
     justify-content: space-between;
+    height: 50px;
 
 }
 
@@ -22,12 +24,29 @@ header{
 }
 
 #nav-info i, h3 {
-    margin:0 30px;
+    margin:0 20px;
+}
+ 
+
+#cards-content{
+    display: flex;
+   
+}
+
+#cards-body{
+    display: flex;
+}
+
+#cards-body section{
+    margin: auto;
 }
 
 .form-search{
-    /* margin-right:auto; */
-    margin: 0 auto;
+    flex-direction: column;
+}
+
+.card-icons{
+    margin:auto;
 }
 
 .input-search{
@@ -38,29 +57,39 @@ header{
 
 .search-icon{
     position:absolute;
-    right: 32%;
+    right: 25%;
     margin-top: 13px;
     margin-right: 10px;
+}
+
+.gear-icon{
+    position:absolute;
+    right: 5%;
+    
 }
 
 .btn-outline-secondary{
-    width: 140px;
+    width: 145px;
+    height: 35px;
+    margin-top: 15px;
 }
+
 .search-icon-button i{
     position:absolute;
-    right: 17%;
-    margin-top: 13px;
+    right: 10%;
+    margin-top: 26px;
     margin-right: 10px;
 }
 
+/* Carousel */
 .bg-carousel{
-    width:600px ;
-    height:400px ; 
+    width:550px ;
+    height:350px ; 
 }
 
 .carousel-img{
-    width: 600px;
-    height: 400px; 
+    width: 550px;
+    height: 350px; 
 
 }
 
@@ -68,7 +97,19 @@ header{
     border-radius: 10px;   
 }
 
+/* cards */
 .icon-cardmercearia i{
-    /* Alinhar os icons na direita */
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+}
 
+#card-previsaodotempo{
+    background-color:rgb(54, 94, 216)
+}
+
+.btn-previsao{
+    border-radius: 15px;
 }
