@@ -1,5 +1,4 @@
 header{
-    width: 100%;
     height:300px;
     justify-content:flex-start;
     align-items:flex-start;
@@ -7,7 +6,9 @@ header{
     background-size: cover;
 }
 
-
+.menuLateralEInput{
+    width: 100%;
+}
 
 #nav-info {
     display: flex;
@@ -18,17 +19,25 @@ header{
 }
 
 .input-search{
-    width: 700px;
-    height: 50px;
+    width: 500px;
+    height: 40px;
 }
 
  
 /* navbar */
-.navbar{
+.navbar-nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between !important;
     height: 50px;
 
+}
+
+.noticias{
+    flex-wrap: wrap;
+}
+
+.cardzinhos{
+    justify-content: space-between;
 }
 
 #cards-body{
@@ -42,17 +51,21 @@ header{
 
 
 .card-icons{
-    margin:auto;
+    width: 55px;
+    height: 55px;
 }
 
+.card-text{
+    font-size: 12px;
+    width:80px;
+}
 
-
-.search-icon{
+/* .search-icon{
     position:absolute;
     right: 25%;
     margin-top: 13px;
     margin-right: 10px;
-}
+} */
 
 .gear-icon{
     position:absolute;
@@ -74,29 +87,27 @@ header{
 }
 
 /* Carousel */
-.bg-carousel{
-    width:550px ;
-    height:350px ; 
-}
 
-.carousel-img{
-    width: 550px;
-    height: 350px; 
 
+.carrouseel{
+    width: 550px !important;
+    height: 350px !important; 
 }
 
 .carousel-img img{
-    border-radius: 10px;   
+    width: 550px !important;
+    height: 350px !important; 
 }
 
+
 /* cards */
-.icon-cardmercearia i{
-    float: right;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    
-}
+    .icon-cardmercearia i{
+        float: right;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        
+    }
 
 #card-previsaodotempo{
     background-color:rgb(54, 94, 216)
