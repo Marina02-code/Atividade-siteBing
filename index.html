@@ -80,129 +80,237 @@
 
   </header>
 
-  
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" href="#">Minhas notícias</a>
-            <a class="nav-link" href="#">Coronavirus</a>
-            <a class="nav-link" href="#">Destaques do dia</a>
-            <a class="nav-link" href="#">São Paulo</a>
-            <a class="nav-link" href="#">Compra e venda de carro</a>
-            <a class="nav-link" href="#">Brasil</a>
-            <a class="nav-link" href="#">Notícias</a>
-            <a class="nav-link" href="#">Entretenimento</a>
-            <a class="nav-link" href="#">Estilo de vida</a>
-            <a class="nav-link" href="#">...</a>
-            <button type="button" class="btn btn-outline-secondary">Personalizar</button>
-            <div class="search-icon-button">
-              <i class="fas fa-pen fa-sm"></i>
-            </div>
 
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" href="#">Minhas notícias</a>
+          <a class="nav-link" href="#">Coronavirus</a>
+          <a class="nav-link" href="#">Destaques do dia</a>
+          <a class="nav-link" href="#">São Paulo</a>
+          <a class="nav-link" href="#">Compra e venda de carro</a>
+          <a class="nav-link" href="#">Brasil</a>
+          <a class="nav-link" href="#">Notícias</a>
+          <a class="nav-link" href="#">Entretenimento</a>
+          <a class="nav-link" href="#">Estilo de vida</a>
+          <a class="nav-link" href="#">...</a>
+          <button type="button" class="btn btn-outline-secondary">Personalizar</button>
+          <div class="search-icon-button">
+            <i class="fas fa-pen fa-sm"></i>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class=" mx-5 d-flex noticias">
+
+
+    <div class="carrouseel m-2">
+
+      <section id="carouselExampleCaptions" class="carousel bg-carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item carousel-img  active">
+            <img src="./img/carousel-1-noticias.jpg" class="d-block w-100">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Filmes e seriados</h5>
+              <p>Netflix pretende lançar novos filmes e séries em 2021</p>
+            </div>
+          </div>
+          <div class="carousel-item carousel-img ">
+            <img src="./img/carousel-2-noticias.jpg" class="d-block w-100">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Jogos online</h5>
+              <p>Estudos confirmam que durante esta pandemia, há muitos adolescentes passando a madrugada jogando jogos
+                online</p>
+            </div>
+          </div>
+          <div class="carousel-item carousel-img ">
+            <img src="./img/carousel-3-noticias.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>O misterioso avião</h5>
+              <p>Avião é encontrado após meses de desaparecimento</p>
+            </div>
           </div>
         </div>
-      </div>
-    </nav>
 
-    <div class="container d-flex noticias">
-
-
-     <div class="carrouseel m-2">
-
-       <section id="carouselExampleCaptions" class="carousel bg-carousel slide" data-bs-ride="carousel">
-         <div class="carousel-indicators">
-           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-             aria-current="true" aria-label="Slide 1"></button>
-           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-             aria-label="Slide 2"></button>
-           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-             aria-label="Slide 3"></button>
-         </div>
-         <div class="carousel-inner" >
-           <div class="carousel-item carousel-img  active">
-             <img src="./img/carousel-1-noticias.jpg" class="d-block w-100">
-             <div class="carousel-caption d-none d-md-block">
-               <h5>Filmes e seriados</h5>
-               <p>Netflix pretende lançar novos filmes e séries em 2021</p>
-             </div>
-           </div>
-           <div class="carousel-item carousel-img ">
-             <img src="./img/carousel-2-noticias.jpg" class="d-block w-100">
-             <div class="carousel-caption d-none d-md-block">
-               <h5>Jogos online</h5>
-               <p>Estudos confirmam que durante esta pandemia, há muitos adolescentes passando a madrugada jogando jogos
-                 online</p>
-             </div>
-           </div>
-           <div class="carousel-item carousel-img ">
-             <img src="./img/carousel-3-noticias.jpg" class="d-block w-100" alt="...">
-             <div class="carousel-caption d-none d-md-block">
-               <h5>O misterioso avião</h5>
-               <p>Avião é encontrado após meses de desaparecimento</p>
-             </div>
-           </div>
-         </div>
-         
-         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-           data-bs-slide="prev">
-           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-           <span class="visually-hidden">Previous</span>
-         </button>
-         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-           data-bs-slide="next">
-           <span class="carousel-control-next-icon" aria-hidden="true"></span>
-           <span class="visually-hidden">Next</span>
-         </button>
-       </section>
-
-     </div>
-
-    
-      <!-- <div id="cards-body"> -->
-      <section class="card m-2" style="width: 18rem;">
-        <img src="./img/card-mercearia.jpg" class="card-img-top">
-        <div class="card-body">
-          <p class="card-title">Afp</p>
-          <h5 class="card-text">Uma mercearia histórica com as portas quase fechadas</h5>
-        </div>
-        <div class="icon-cardmercearia">
-          <i class="fas fa-ellipsis-h"></i>
-          <i class="far fa-bookmark fa-lg"></i>
-        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </section>
 
-      <section class="card m-2" id="card-previsaodotempo">
-        <div class="card-body"  style="width: 18rem;" >
-          <h5 class="card-title">São Paulo,SP</h5>
-          <i class="fas fa-cloud-moon fa-2x fa-flip-horizontal"></i>
-          <p class="card-text">20°C</p>
-        </div>
-        <img src="./img/card-tempo.png" class="card-img-top">
-        <button type="button" class="btn btn-primary btn-previsao">Ver a previsão completa</button>
+    </div>
+
+
+    <!-- <div id="cards-body"> -->
+    <section class="card m-2" style="width: 18rem;">
+      <img src="./img/card-mercearia.jpg" class="card-img-top">
+      <div class="card-body">
+        <p class="card-title">Afp</p>
+        <h5 class="cardinho-text">Uma mercearia histórica com as portas quase fechadas</h5>
+      </div>
+      <div class="icons-cards">
+        <i class="fas fa-ellipsis-h"></i>
+        <i class="far fa-bookmark fa-lg"></i>
+      </div>
+    </section>
+
+    <section class="card m-2" id="card-previsaodotempo">
+      <div class="card-body" style="width: 18rem;">
+        <h5 class="card-title">São Paulo,SP</h5>
+        <i class="fas fa-cloud-moon fa-2x fa-flip-horizontal"></i>
+        <p class="card-text">20°C</p>
+      </div>
+      <img src="./img/card-tempo.png" class="card-img-top">
+      <button type="button" class="btn btn-primary btn-previsao">Ver a previsão completa</button>
+    </section>
+
+    <div class="card m-2" style="width: 18rem;">
+      <img src="./img/cardnoticia-1.jpg" class="card-img-top">
+      <div class="card-body">
+        <h5 class="cardinho-text">Príncipe William fez piada sobre o irmão, príncipe Harry, no dia em que se casou com Kate
+          Middleton; saiba detalhes!</h5>
+      </div>
+      <div class="icons-cards">
+        <i class="fas fa-ellipsis-h"></i>
+        <i class="far fa-bookmark fa-lg"></i>
+      </div>
+    </div>
+
+    <div class="card m-2" style="width: 18rem;">
+      <img src="./img/cardnoticia-2.jpg" class="card-img-top">
+      <div class="card-body">
+        <h5 class="cardinho-text">Felipe Neto critica cantores sertanejos e Zé Felipe e Gusttavo Lima respondem, entenda!
+        </h5>
+      </div>
+      <div class="icons-cards">
+        <i class="fas fa-ellipsis-h"></i>
+        <i class="far fa-bookmark fa-lg"></i>
+      </div>
+    </div>
+
+    <div class="card m-2" style="width: 18rem;">
+      <img src="./img/cardnoticia-3.jpg" class="card-img-top">
+      <div class="card-body">
+        <h5 class="cardinho-text">Husqvarna E-Pilen: 1ª moto elétrica da marca pode chegar em 2022</h5>
+      </div>
+      <div class="icons-cards">
+        <i class="fas fa-ellipsis-h"></i>
+        <i class="far fa-bookmark fa-lg"></i>
+      </div>
+    </div>
+
+    <div class="card m-2" style="width: 18rem;">
+      <img src="./img/cardnoticia-4.jpg" class="card-img-top">
+      <div class="card-body">
+        <h5 class="cardinho-text">Morre Michael Collins, astronauta da missão Apollo 11</h5>
+      </div>
+      <div class="icons-cards">
+        <i class="fas fa-ellipsis-h"></i>
+        <i class="far fa-bookmark fa-lg"></i>
+      </div>
+    </div>
+
+
+    <div class="card m-2" style="width: 18rem;">
+      <img src="./img/cardnoticia-5.jpg" class="card-img-top">
+      <div class="card-body">
+        <h5 class="cardinho-text">Jeep lança o Compass 2022 com mudanças no visual e novo motor T270</h5>
+      </div>
+      <div class="icons-cards">
+        <i class="fas fa-ellipsis-h"></i>
+        <i class="far fa-bookmark fa-lg"></i>
+      </div>
+    </div>
+
+
+    <div class="card m-2" style="width: 18rem;">
+      <img src="./img/cardnoticia-6.jpg" class="card-img-top">
+      <div class="card-body">
+        <h5 class="cardinho-text">Arthur revela ter mandado mensagem a Carla Diaz: “Hoje cedo”</h5>
+      </div>
+      <div class="icons-cards">
+        <i class="fas fa-ellipsis-h"></i>
+        <i class="far fa-bookmark fa-lg"></i>
+      </div>
+    </div>
+
+    <div class="card m-2" style="width: 18rem;">
+      <img src="./img/cardnoticia-7.jpg" class="card-img-top">
+      <div class="card-body">
+        <h5 class="cardinho-text">Morre Risitas, comediante espanhol que ficou famosos como figurinha de memes</h5>
+      </div>
+      <div class="icons-cards">
+        <i class="fas fa-ellipsis-h"></i>
+        <i class="far fa-bookmark fa-lg"></i>
+      </div>
+    </div>
+
+    <div class="card m-2" style="width: 18rem;">
+      <img src="./img/cardnoticia-8.jpg" class="card-img-top">
+      <div class="card-body">
+        <h5 class="cardinho-text">Viih afirma que foi injusta com Juliette: 'Eu nem merecia a amizade dela'</h5>
+      </div>
+      <div class="icons-cards">
+        <i class="fas fa-ellipsis-h"></i>
+        <i class="far fa-bookmark fa-lg"></i>
+      </div>
+    </div>
+
+
+    <div class="card m-2" style="width: 18rem;">
+      <img src="./img/cardnoticia-9.jpg" class="card-img-top">
+      <div class="card-body">
+        <h5 class="cardinho-text">Rafa Costa e Silva assina menu para hóspedes de suítes do hotel Pestana</h5>
+      </div>
+      <div class="icons-cards">
+        <i class="fas fa-ellipsis-h"></i>
+        <i class="far fa-bookmark fa-lg"></i>
+      </div>
+    </div>
+
+
+    <div class="card m-2" style="width: 18rem;">
+      <img src="./img/cardnoticia-10.jpg" class="card-img-top">
+      <div class="card-body">
+        <h5 class="cardinho-text">Sem filtro! 10 estrelas que odeiam usar Photoshop</h5>
+      </div>
+      <div class="icons-cards">
+        <i class="fas fa-ellipsis-h"></i>
+        <i class="far fa-bookmark fa-lg"></i>
+      </div>
+    </div>
+
+
+    <div class="carrouseel m-2">
+
+      <section id="carouselExampleCaptions" class="carousel bg-carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-inner">
+          <div class="carousel-item carousel-img  active">
+            <img src="./img/carousel2-footer.jpg" class="d-block w-100">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Novo Honda Civic 2022 é revelado e mantém motores 2.0 e 1.5 turbo</h5>
+            </div>
+          </div>
       </section>
-
-      <div class="card m-2" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-            content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-
-      <div class="card m-2" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-            content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-
-
 
     </div>
 
@@ -210,9 +318,10 @@
 
 
 
-
-
   </div>
+
+
+
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
     integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
